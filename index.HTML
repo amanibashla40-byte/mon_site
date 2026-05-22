@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bash-CI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>echo "# 3ECI" >> README.md 
+git init 
+git add README.md 
+git commit -m "premier commit" 
+git branch -M main 
+git remote add origin https://github.com/amanibashla40-byte/3ECI.git
+ git push -u origin main
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">BASH-CI</div>
+  <ul class="nav-links">
+    <li><a href="#universites">Universités</a></li>
+    <li><a href="#orientation">Orientation</a></li>
+    <li><a href="#comparaison">Comparaison</a></li>
+    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#blog">Blog</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-badge"><span></span> Côte d'Ivoire · Universités d'Excellence</div>
+  <h1>Choisis ton<br/><em>avenir</em><br/>avec clarté</h1>
+  <p class="hero-sub">Découvre les trois meilleures grandes écoles d'ingénieurs et de technologie de Côte d'Ivoire. Trouve l'établissement qui correspond à ta passion et à tes ambitions.</p>
+  <div class="hero-cta">
+    <a href="#universites" class="btn btn-primary">Explorer les universités ↓</a>
+    <a href="#quiz" class="btn btn-outline">Faire le quiz d'orientation</a>
+    
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Défiler
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar reveal">
+  <div class="stat-item">
+    <div class="stat-num" data-target="3">0</div>
+    <div class="stat-label">Grandes Écoles d‘Excellence</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num" data-target="40">0</div>
+    <div class="stat-label">Spécialités</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num" data-target="20000">0</div>
+    <div class="stat-label">Étudiants formés</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num" data-target="50">0</div>
+    <div class="stat-label">Ans d'excellence</div>
+  </div>
+</div>
+
+<!-- UNIVERSITÉS -->
+<section id="universites">
+  <div class="section-label">Les établissements</div>
+  <h2 class="section-title reveal">Trois écoles,<br/>trois vocations</h2>
+  <p class="section-sub reveal">Chaque établissement possède son identité forte, ses domaines de prédilection et ses débouchés uniques. Explore-les en détail.</p>
+
+  <div class="uni-tabs">
+    <button class="uni-tab active" data-uni="inphb">
+      <span class="tab-dot"></span> INPHB
+    </button>
+    <button class="uni-tab" data-uni="ensea">
+      <span class="tab-dot"></span> ENSEA
+    </button>
+    <button class="uni-tab" data-uni="esatic">
+      <span class="tab-dot"></span> ESATIC
+    </button>
+  </div>
+
+  <!-- INPHB -->
+  <div class="uni-panel active" id="panel-inphb">
+    <div class="uni-hero-card" data-uni="inphb">
+      <div class="uni-acronym">INPHB</div>
+      <div class="uni-card-content">
+        <span class="uni-tag">Yamoussoukro · Fondé en 1975</span>
+        <h3 class="uni-card-name">Institut National Polytechnique Houphouët-Boigny</h3>
+        <p class="uni-card-full">INPHB — La grande école polytechnique de référence en Afrique de l'Ouest</p>
+        <p class="uni-card-desc">L'INPHB est le fleuron de l'enseignement supérieur ivoirien. Situé à Yamoussoukro, il forme des ingénieurs et cadres supérieurs dans les domaines les plus stratégiques : génie civil, agronomie, industries, mines et bien d'autres. Reconnu sur le plan continental, il attire des étudiants de toute l'Afrique subsaharienne.</p>
+      </div>
+      <div class="uni-meta">
+        <div class="meta-item"><div class="meta-val">8</div><div class="meta-key">Grandes Écoles</div></div>
+        <div class="meta-item"><div class="meta-val">6000+</div><div class="meta-key">Étudiants</div></div>
+        <div class="meta-item"><div class="meta-val">50+</div><div class="meta-key">Partenariats</div></div>
+      </div>
+    </div>
+    <div class="uni-gallery">
+      <div class="gallery-item"><img src="image/photo code inp/inovationn d‘une petite voiture.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/les etudiant en salle de cours.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/avion aves les militaire  inp.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/la tete de félix houphouet boigny.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/la plage.png" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/etudiant en chapeau vert.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/SIADE inovation.jpg" alt="INPHB"></div>
+      <div class="gallery-item"><img src="image/photo code inp/eleve de tle en visite a inp.jpg" alt="INPHB"></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🏗️</span>
+      <div class="spec-title">École Supérieure des Travaux Publics (ESTP)</div>
+      <p class="spec-desc">Formation d'ingénieurs dans la conception et la réalisation d'infrastructures. Routes, ponts, bâtiments et génie urbain au service du développement.</p>
+      <div class="spec-tags"><span class="spec-tag">Génie Civil</span><span class="spec-tag">BTP</span><span class="spec-tag">Hydraulique</span><span class="spec-tag">Topographie</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">⚗️</span>
+      <div class="spec-title">École Supérieure des Industries (ESI)</div>
+      <p class="spec-desc">Ingénierie industrielle, génie chimique, procédés de transformation et management de la production industrielle pour l'économie nationale.</p>
+      <div class="spec-tags"><span class="spec-tag">Génie Chimique</span><span class="spec-tag">Procédés Industriels</span><span class="spec-tag">Qualité</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🌿</span>
+      <div class="spec-title">École Supérieure d'Agronomie (ESA)</div>
+      <p class="spec-desc">Former des agronomes capables de moderniser l'agriculture ivoirienne : cultures, élevage, agroalimentaire, développement rural et environnement.</p>
+      <div class="spec-tags"><span class="spec-tag">Agronomie</span><span class="spec-tag">Agroalimentaire</span><span class="spec-tag">Élevage</span><span class="spec-tag">Foresterie</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">⚡</span>
+      <div class="spec-title">École Supérieure des Mines & Géologie (ESMG)</div>
+      <p class="spec-desc">Exploitation des ressources naturelles, géologie appliquée, pétrole et gaz. Un domaine clé pour la valorisation du sous-sol africain.</p>
+      <div class="spec-tags"><span class="spec-tag">Mines</span><span class="spec-tag">Géologie</span><span class="spec-tag">Pétrole & Gaz</span><span class="spec-tag">Environnement</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">💼</span>
+      <div class="spec-title">École Supérieure de Commerce et d'Administration (ESCA)</div>
+      <p class="spec-desc">Management, finance, commerce international et entrepreneuriat pour formé les dirigeants d'entreprises de demain.</p>
+      <div class="spec-tags"><span class="spec-tag">Management</span><span class="spec-tag">Finance</span><span class="spec-tag">Commerce</span><span class="spec-tag">Entrepreneuriat</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🔧</span>
+      <div class="spec-title">École Supérieure de Génie Électrique & Électronique</div>
+      <p class="spec-desc">Électrotechnique, automatique, systèmes embarqués, énergies renouvelables et réseaux électriques intelligents (Smart Grids).</p>
+      <div class="spec-tags"><span class="spec-tag">Électrotechnique</span><span class="spec-tag">Automatique</span><span class="spec-tag">Énergies</span></div>
+    </div>
+  </div>
+
+  <!-- ENSEA -->
+  <div class="uni-panel" id="panel-ensea">
+    <div class="uni-hero-card" data-uni="ensea">
+      <div class="uni-acronym">ENSEA</div>
+      <div class="uni-card-content">
+        <span class="uni-tag">Abidjan · Fondé en 1963</span>
+        <h3 class="uni-card-name">École Nationale Supérieure de Statistique et d'Économie Appliquée</h3>
+        <p class="uni-card-full">ENSEA — La référence africaine en statistiques, économie et actuariat</p>
+        <p class="uni-card-desc">L'ENSEA est l'une des plus anciennes et plus prestigieuses écoles de statistique d'Afrique francophone. Elle forme des spécialistes hautement qualifiés en statistique, démographie, économie et actuariat, dont les compétences sont recherchées par les institutions nationales, régionales et internationales.</p>
+      </div>
+      <div class="uni-meta">
+        <div class="meta-item"><div class="meta-val">4</div><div class="meta-key">Filières</div></div>
+        <div class="meta-item"><div class="meta-val">1500+</div><div class="meta-key">Étudiants</div></div>
+        <div class="meta-item"><div class="meta-val">60+</div><div class="meta-key">Ans</div></div>
+      </div>
+    </div>
+    <div class="uni-gallery">
+      <div class="gallery-item"><img src="image/photo code inp/phto code ENSEA/485782042_1071766624972008_4078961313066834061_n.jpg" alt="ENSEA"></div>
+      <div class="gallery-item"><img src="image/photo code inp/phto code ENSEA/690635851_1410167564465244_8347856955615175725_n.jpg" alt="ENSEA"></div>
+      <div class="gallery-item"><img src="image/photo code inp/phto code ENSEA/690587634_1410167961131871_4977365773974090145_n.jpg" alt="ENSEA"></div>
+      <div class="gallery-item"><img src="image/photo code inp/phto code ENSEA/690653021_1410186007796733_1042426303597217236_n.jpg" alt="ENSEA"></div>
+      <div class="gallery-item"><img src="photo code inp/diplome ensea.jpg" alt="ENSEA"></div>
+      <div class="gallery-item"><img src="photo code inp/le directeur.jpg" alt="ENSEA"></div>
+      
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">📊</span>
+      <div class="spec-title">Ingénierie Statistique</div>
+      <p class="spec-desc">Formation d'ingénieurs statisticiens capables de collecter, analyser et interpréter les données au service des politiques publiques et entreprises.</p>
+      <div class="spec-tags"><span class="spec-tag">Statistique</span><span class="spec-tag">Modélisation</span><span class="spec-tag">Big Data</span><span class="spec-tag">R / Python</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🌍</span>
+      <div class="spec-title">Démographie & Études de Population</div>
+      <p class="spec-desc">Analyse des dynamiques de population, politiques sociales, santé publique et planification territoriale. Indispensable pour les gouvernements et ONG.</p>
+      <div class="spec-tags"><span class="spec-tag">Démographie</span><span class="spec-tag">Sociologie</span><span class="spec-tag">Recensement</span><span class="spec-tag">Santé Publique</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">📈</span>
+      <div class="spec-title">Économie Appliquée & Econométrie</div>
+      <p class="spec-desc">Modélisation économétrique, analyse macroéconomique, politique monétaire, développement international et conseil aux institutions financières.</p>
+      <div class="spec-tags"><span class="spec-tag">Économétrie</span><span class="spec-tag">Macroéconomie</span><span class="spec-tag">UEMOA</span><span class="spec-tag">FMI / Banque Mondiale</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🛡️</span>
+      <div class="spec-title">Actuariat & Sciences des Risques</div>
+      <p class="spec-desc">Calcul du risque assurantiel, modèles financiers, gestion des risques d'entreprise et actuariat pour compagnies d'assurance et réassurance.</p>
+      <div class="spec-tags"><span class="spec-tag">Actuariat</span><span class="spec-tag">Assurance</span><span class="spec-tag">Finance Quantitative</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🤖</span>
+      <div class="spec-title">Data Science & Intelligence Artificielle</div>
+      <p class="spec-desc">Machine Learning, intelligence artificielle appliquée à l'économie, analyse prédictive et visualisation avancée des données massives.</p>
+      <div class="spec-tags"><span class="spec-tag">Machine Learning</span><span class="spec-tag">Python</span><span class="spec-tag">Data Mining</span><span class="spec-tag">IA</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🏛️</span>
+      <div class="spec-title">Planification & Développement</div>
+      <p class="spec-desc">Politiques de développement, planification nationale, gestion des projets de développement et coopération internationale.</p>
+      <div class="spec-tags"><span class="spec-tag">Développement</span><span class="spec-tag">Planification</span><span class="spec-tag">Coopération</span><span class="spec-tag">Projets</span></div>
+    </div>
+  </div>
+
+  <!-- ESATIC -->
+  <div class="uni-panel" id="panel-esatic">
+    <div class="uni-hero-card" data-uni="esatic">
+      <div class="uni-acronym">ESATIC</div>
+      <div class="uni-card-content">
+        <span class="uni-tag">Abidjan · Fondé en 2013</span>
+        <h3 class="uni-card-name">École Supérieure Africaine des Technologies de l'Information et de la Communication</h3>
+        <p class="uni-card-full">ESATIC — L'école de référence du numérique en Côte d'Ivoire</p>
+        <p class="uni-card-desc">Créée pour répondre aux besoins croissants en expertise numérique de l'Afrique, l'ESATIC forme des ingénieurs, architectes de systèmes et experts en cybersécurité. Elle est au cœur de la transformation digitale de la Côte d'Ivoire, en lien direct avec les acteurs du secteur technologique continental et mondial.</p>
+      </div>
+      <div class="uni-meta">
+        <div class="meta-item"><div class="meta-val">6</div><div class="meta-key">Spécialités</div></div>
+        <div class="meta-item"><div class="meta-val">2000+</div><div class="meta-key">Étudiants</div></div>
+        <div class="meta-item"><div class="meta-val">100%</div><div class="meta-key">Numérique</div></div>
+      </div>
+    </div>
+    <div class="uni-gallery">
+      <div class="gallery-item"><img src="phto code ESATIC/dealcamera.jpg" alt="ESATIC"></div>
+      <div class="gallery-item"><img src="phto code ESATIC/innovation.jpg" alt="ESATIC"></div>
+      <div class="gallery-item"><img src="phto code ESATIC/voiture.jpg" alt="ESATIC"></div>
+      <div class="gallery-item"><img src="phto code ESATIC/inorobot.jpg" alt="ESATIC"></div>
+       <div class="gallery-item"><img src="phto code ESATIC/conférence.jpg" alt="ESATIC"></div>
+        <div class="gallery-item"><img src="phto code ESATIC/drapeau.jpg" alt="ESATIC"></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">💻</span>
+      <div class="spec-title">Génie Logiciel & Développement</div>
+      <p class="spec-desc">Conception, développement et maintenance de logiciels et applications. Du backend au frontend, maîtrise complète du cycle de développement logiciel.</p>
+      <div class="spec-tags"><span class="spec-tag">Java/Python</span><span class="spec-tag">Web</span><span class="spec-tag">Mobile</span><span class="spec-tag">DevOps</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🔐</span>
+      <div class="spec-title">Cybersécurité & Sécurité des Systèmes</div>
+      <p class="spec-desc">Protection des infrastructures numériques, analyse forensique, cryptographie, tests d'intrusion et conformité RGPD. Métier d'avenir très demandé.</p>
+      <div class="spec-tags"><span class="spec-tag">Ethical Hacking</span><span class="spec-tag">SOC</span><span class="spec-tag">Cryptographie</span><span class="spec-tag">RGPD</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🌐</span>
+      <div class="spec-title">Réseaux & Télécommunications</div>
+      <p class="spec-desc">Architecture des réseaux, protocoles, 5G, fibre optique, cloud computing et administration des infrastructures réseau d'entreprise.</p>
+      <div class="spec-tags"><span class="spec-tag">Cisco</span><span class="spec-tag">Cloud</span><span class="spec-tag">5G</span><span class="spec-tag">IoT</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">🧠</span>
+      <div class="spec-title">Intelligence Artificielle & Data Engineering</div>
+      <p class="spec-desc">Développement de systèmes intelligents, traitement du langage naturel, vision par ordinateur et pipelines de données massives.</p>
+      <div class="spec-tags"><span class="spec-tag">Deep Learning</span><span class="spec-tag">NLP</span><span class="spec-tag">Spark</span><span class="spec-tag">TensorFlow</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">☁️</span>
+      <div class="spec-title">Cloud Computing & Architecture Système</div>
+      <p class="spec-desc">Conception d'architectures cloud scalables, virtualisation, conteneurisation et gestion des infrastructures distribuées à grande échelle.</p>
+      <div class="spec-tags"><span class="spec-tag">AWS/Azure</span><span class="spec-tag">Docker</span><span class="spec-tag">Kubernetes</span><span class="spec-tag">DevOps</span></div>
+    </div>
+    <div class="spec-card">
+      <span class="spec-icon">📡</span>
+      <div class="spec-title">Systèmes Embarqués & IoT</div>
+      <p class="spec-desc">Conception de systèmes embarqués intelligents, objets connectés, robotique industrielle et automatisation des processus industriels.</p>
+      <div class="spec-tags"><span class="spec-tag">Arduino</span><span class="spec-tag">FPGA</span><span class="spec-tag">IoT</span><span class="spec-tag">Robotique</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ORIENTATION -->
+<section id="orientation">
+  <div class="section-label">Guide pratique</div>
+  <h2 class="section-title reveal">Comment choisir<br/>ton école ?</h2>
+  <p class="section-sub reveal">Identifie tes forces, tes passions et les débouchés qui t'attirent. Chaque école répond à un profil spécifique.</p>
+  <div class="orientation-grid">
+    <div class="orient-card reveal" data-color="blue">
+      <span class="orient-num">01</span>
+      <span class="orient-emoji">🧮</span>
+      <div class="orient-title">Tu aimes les maths appliquées aux sciences physiques</div>
+      <p class="orient-desc">Génie civil, chimie, mines, électrotechnique… Si tu veux construire, transformer et innover dans le monde physique et industriel.</p>
+      <span class="orient-uni-badge" data-uni="inphb">🔵 INPHB</span>
+    </div>
+    <div class="orient-card reveal" data-color="red">
+      <span class="orient-num">02</span>
+      <span class="orient-emoji">📐</span>
+      <div class="orient-title">Tu excelles en maths théoriques et probabilités</div>
+      <p class="orient-desc">Si tu aimes modéliser, analyser des données complexes et influencer les décisions stratégiques des États et institutions financières.</p>
+      <span class="orient-uni-badge" data-uni="ensea">🔴 ENSEA</span>
+    </div>
+    <div class="orient-card reveal" data-color="green">
+      <span class="orient-num">03</span>
+      <span class="orient-emoji">💡</span>
+      <div class="orient-title">Tu es passionné par l'informatique et le numérique</div>
+      <p class="orient-desc">Code, réseaux, IA, cybersécurité… Si ton rêve c'est de construire l'Afrique numérique de demain, l'ESATIC est ta maison.</p>
+      <span class="orient-uni-badge" data-uni="esatic">🟢 ESATIC</span>
+    </div>
+    <div class="orient-card reveal" data-color="blue">
+      <span class="orient-num">04</span>
+      <span class="orient-emoji">🏙️</span>
+      <div class="orient-title">Tu veux contribuer au développement des infrastructures</div>
+      <p class="orient-desc">Routes, immeubles, barrages, projets agricoles à grande échelle… L'INPHB forme ceux qui bâtissent concrètement la Côte d'Ivoire.</p>
+      <span class="orient-uni-badge" data-uni="inphb">🔵 INPHB</span>
+    </div>
+    <div class="orient-card reveal" data-color="red">
+      <span class="orient-num">05</span>
+      <span class="orient-emoji">🌍</span>
+      <div class="orient-title">Tu veux travailler dans les organisations internationales</div>
+      <p class="orient-desc">UEMOA, Banque Mondiale, ONU, FMI, OCDE… Les diplômés ENSEA sont recrutés partout dans le monde pour leur expertise analytique.</p>
+      <span class="orient-uni-badge" data-uni="ensea">🔴 ENSEA</span>
+    </div>
+    <div class="orient-card reveal" data-color="green">
+      <span class="orient-num">06</span>
+      <span class="orient-emoji">🚀</span>
+      <div class="orient-title">Tu rêves de créer ta startup tech</div>
+      <p class="orient-desc">L'écosystème ESATIC t'offre incubateurs, partenariats avec les GAFAM et une formation orientée entrepreneuriat numérique et innovation.</p>
+      <span class="orient-uni-badge" data-uni="esatic">🟢 ESATIC</span>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARAISON -->
+<section id="comparaison">
+  <div class="section-label">Vue d'ensemble</div>
+  <h2 class="section-title reveal">Tableau comparatif</h2>
+  <p class="section-sub reveal">Un récapitulatif complet pour t'aider à comparer les trois établissements sur les critères essentiels.</p>
+  <div class="compare-table-wrapper reveal">
+    <table>
+      <thead>
+        <tr>
+          <th>Critère</th>
+          <th>🔵 INPHB</th>
+          <th>🔴 ENSEA</th>
+          <th>🟢 ESATIC</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Ville</td><td>Yamoussoukro</td><td>Abidjan</td><td>Abidjan</td></tr>
+        <tr><td>Année de création</td><td>1975</td><td>1963</td><td>2013</td></tr>
+        <tr><td>Domaine principal</td><td>Ingénierie & Polytechnique</td><td>Statistiques & Économie</td><td>TIC & Numérique</td></tr>
+        <tr><td>Diplôme délivré</td><td>Ingénieur d'État / Master</td><td>Ingénieur Statisticien / Master</td><td>Ingénieur TIC / Master</td></tr>
+        <tr><td>Conditions d'admission</td><td>Concours national (C, D, E)</td><td>Concours national (C, D)</td><td>Concours national (C, D, E)</td></tr>
+        <tr><td>Durée des études</td><td>3 à 5 ans</td><td>3 à 5 ans</td><td>3 à 5 ans</td></tr>
+        <tr><td>Internat disponible</td><td><span class="check">✔</span> Oui</td><td><span class="cross">—</span> Limité</td><td><span class="cross">—</span> Non</td></tr>
+        <tr><td>Recherche scientifique</td><td><span class="check">✔</span> Oui</td><td><span class="check">✔</span> Oui</td><td><span class="check">✔</span> En développement</td></tr>
+        <tr><td>Partenariats internationaux</td><td><span class="check">✔</span> France, UE, Chine</td><td><span class="check">✔</span> France, Belgique</td><td><span class="check">✔</span> GAFAM, startup</td></tr>
+        <tr><td>Insertion professionnelle</td><td>Très élevée (ingénierie)</td><td>Excellente (institutions)</td><td>Très forte (tech privé)</td></tr>
+        <tr><td>Entrepreneuriat / Incubateur</td><td><span class="check">✔</span> Oui</td><td><span class="cross">—</span> Partiel</td><td><span class="check">✔</span> Fort (numérique)</td></tr>
+        <tr><td>Idéal pour</td><td>Bâtir, industrialiser, agronomer</td><td>Analyser, prévoir, conseiller</td><td>Coder, connecter, innover</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <div class="section-label">Trouve ta voie</div>
+  <h2 class="section-title reveal">Quel est ton profil ?</h2>
+  <p class="section-sub reveal">Réponds à 4 questions rapides pour découvrir quelle grande école correspond le mieux à ta personnalité et tes ambitions.</p>
+
+  <div class="quiz-box reveal">
+    <div class="quiz-progress" id="quizProgress">
+      <div class="progress-dot done"></div>
+      <div class="progress-dot"></div>
+      <div class="progress-dot"></div>
+      <div class="progress-dot"></div>
+    </div>
+
+    <div class="quiz-step active" data-step="0">
+      <p class="quiz-q">Quelle matière te passionne le plus ?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">A</span> Physique-Chimie, SVT, Sciences de l'ingénieur</button>
+        <button class="quiz-option" data-val="ensea"><span class="quiz-option-letter">B</span> Mathématiques, Probabilités, Statistiques</button>
+        <button class="quiz-option" data-val="esatic"><span class="quiz-option-letter">C</span> Informatique, Algorithmes, Électronique</button>
+        <button class="quiz-option" data-val="ensea"><span class="quiz-option-letter">D</span> Économie, Sciences sociales, Géographie</button>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-primary" onclick="nextStep(0)">Suivant →</button>
+      </div>
+    </div>
+
+    <div class="quiz-step" data-step="1">
+      <p class="quiz-q">Où te vois-tu travailler dans 10 ans ?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">A</span> Dans une entreprise de BTP, agro-industrie ou mines</button>
+        <button class="quiz-option" data-val="ensea"><span class="quiz-option-letter">B</span> Dans une banque, l'INS, le FMI ou une ONG internationale</button>
+        <button class="quiz-option" data-val="esatic"><span class="quiz-option-letter">C</span> Dans une startup tech, chez Orange, MTN ou ma propre boîte</button>
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">D</span> Dans un ministère technique ou une agence de développement</button>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline" onclick="prevStep(1)">← Retour</button>
+        <button class="btn btn-primary" onclick="nextStep(1)">Suivant →</button>
+      </div>
+    </div>
+
+    <div class="quiz-step" data-step="2">
+      <p class="quiz-q">Quel type de problème aimes-tu résoudre ?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-val="esatic"><span class="quiz-option-letter">A</span> Déboguer du code et optimiser des algorithmes</button>
+        <button class="quiz-option" data-val="ensea"><span class="quiz-option-letter">B</span> Interpréter des données et construire des modèles prédictifs</button>
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">C</span> Concevoir et réaliser des ouvrages ou systèmes physiques</button>
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">D</span> Gérer des projets complexes alliant technique et management</button>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline" onclick="prevStep(2)">← Retour</button>
+        <button class="btn btn-primary" onclick="nextStep(2)">Suivant →</button>
+      </div>
+    </div>
+
+    <div class="quiz-step" data-step="3">
+      <p class="quiz-q">Quelle phrase te correspond le mieux ?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-val="inphb"><span class="quiz-option-letter">A</span> "Je veux construire les infrastructures qui transforment l'Afrique"</button>
+        <button class="quiz-option" data-val="ensea"><span class="quiz-option-letter">B</span> "Je veux analyser le monde pour mieux l'orienter"</button>
+        <button class="quiz-option" data-val="esatic"><span class="quiz-option-letter">C</span> "Je veux créer les technologies qui connecteront demain"</button>
+        <button class="quiz-option" data-val="esatic"><span class="quiz-option-letter">D</span> "Je veux protéger les données et sécuriser le numérique africain"</button>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline" onclick="prevStep(3)">← Retour</button>
+        <button class="btn btn-primary" onclick="showResult()">Voir mon résultat ✨</button>
+      </div>
+    </div>
+
+    <div class="quiz-result" id="quizResult">
+      <div class="result-badge" id="resultBadge"></div>
+      <div class="result-name" id="resultName"></div>
+      <div class="result-desc" id="resultDesc"></div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-primary" id="resultScrollBtn">Explorer cette école ↓</button>
+        <button class="btn btn-outline" onclick="resetQuiz()">Recommencer le quiz</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONNEXION ET BLOG -->
+<section id="auth">
+  <div class="section-label">Espace utilisateur</div>
+  <h2 class="section-title reveal">Connexion, inscription et blog</h2>
+  <p class="section-sub reveal">Crée un compte, connecte-toi, envoie un message ou publie ton premier article.</p>
+  <div class="auth-grid reveal">
+    <div class="form-card">
+      <h3>Connexion</h3>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <input id="loginEmail" type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Mot de passe</label>
+          <input id="loginPassword" type="password" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+        <div class="form-message" id="loginMessage"></div>
+      </form>
+    </div>
+    <div class="form-card">
+      <h3>Inscription</h3>
+      <form id="registerForm">
+        <div class="form-group">
+          <label for="registerName">Nom complet</label>
+          <input id="registerName" type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">Email</label>
+          <input id="registerEmail" type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Mot de passe</label>
+          <input id="registerPassword" type="password" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-outline">S'inscrire</button>
+        <div class="form-message" id="registerMessage"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Contact</div>
+  <h2 class="section-title reveal">Envoie un message</h2>
+  <p class="section-sub reveal">Pose une question ou partage ton avis. Le message sera enregistré dans la base de données.</p>
+  <div class="form-card reveal">
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="contactName">Nom</label>
+        <input id="contactName" type="text" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="contactEmail">Email</label>
+        <input id="contactEmail" type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="contactMessage">Message</label>
+        <textarea id="contactMessage" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+      <div class="form-message" id="contactMessageStatus"></div>
+    </form>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="section-label">Blog</div>
+  <h2 class="section-title reveal">Publier un article</h2>
+  <p class="section-sub reveal">Rédige un article simple et visualise les publications enregistrées.</p>
+  <div class="auth-grid reveal">
+    <div class="form-card">
+      <h3>Ajouter un article</h3>
+      <form id="postForm">
+        <div class="form-group">
+          <label for="postTitle">Titre</label>
+          <input id="postTitle" type="text" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="postContent">Contenu</label>
+          <textarea id="postContent" name="content" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="postAuthor">Auteur</label>
+          <input id="postAuthor" type="text" name="author" placeholder="Ex. AMANI YVES BASHLA">
+        </div>
+        <button type="submit" class="btn btn-outline">Publier</button>
+        <div class="form-message" id="postMessage"></div>
+      </form>
+    </div>
+    <div class="form-card">
+      <h3>Articles publiés</h3>
+      <div id="blogList" class="blog-list">
+        <div class="blog-card"><p>Chargement des articles...</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">BASH-CI</div>
+  <div class="footer-copy">© 2026 — Guide d'orientation universitaire · Côte d'Ivoire<br/>Site informatif indépendant. Se rapprocher des établissements pour informations officielles.</div>
+  <div class="footer-unis">
+    <span class="footer-uni">INPHB</span>
+    <span class="footer-uni">ENSEA</span>
+    <span class="footer-uni">ESATIC</span>
+  </div>
+</footer> 
+<script>
+  // === CURSOR ===
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+  function animateCursor() {
+    cursor.style.transform = `translate(${mx - 6}px, ${my - 6}px)`;
+    rx += (mx - rx) * 0.12;
+    ry += (my - ry) * 0.12;
+    ring.style.transform = `translate(${rx - 20}px, ${ry - 20}px)`;
+    requestAnimationFrame(animateCursor);
+  }
+  animateCursor();
+  document.querySelectorAll('a,button,.uni-tab,.spec-card,.orient-card,.quiz-option').forEach(el => {
+    el.addEventListener('mouseenter', () => { ring.style.width = ring.style.height = '60px'; ring.style.opacity = '0.8'; });
+    el.addEventListener('mouseleave', () => { ring.style.width = ring.style.height = '40px'; ring.style.opacity = '0.5'; });
+  });
+
+  // === UNI TABS ===
+  document.querySelectorAll('.uni-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.uni-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.uni-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('panel-' + tab.dataset.uni).classList.add('active');
+    });
+  });
+
+  // === SCROLL REVEAL ===
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // === COUNT UP ===
+  const countObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const target = +el.dataset.target;
+      const duration = 1800;
+      const start = Date.now();
+      function step() {
+        const progress = Math.min((Date.now() - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - progress, 3);
+        const val = Math.round(ease * target);
+        el.textContent = val >= 1000 ? val.toLocaleString() + '+' : val + (target < 100 && target > 3 ? '' : target >= 100 ? '+' : '');
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = target >= 1000 ? target.toLocaleString() + '+' : target + (target < 100 && target > 3 ? '+' : '');
+      }
+      step();
+      countObserver.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.stat-num[data-target]').forEach(el => countObserver.observe(el));
+
+  // === QUIZ ===
+  const answers = {};
+  let currentStep = 0;
+  const totalSteps = 4;
+
+  function updateProgress() {
+    document.querySelectorAll('.progress-dot').forEach((dot, i) => {
+      dot.classList.toggle('done', i <= currentStep);
+    });
+  }
+
+  document.querySelectorAll('.quiz-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const step = btn.closest('.quiz-step').dataset.step;
+      btn.closest('.quiz-options').querySelectorAll('.quiz-option').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      answers[step] = btn.dataset.val;
+    });
+  });
+
+  function nextStep(step) {
+    if (!answers[step]) { alert('Sélectionne une réponse avant de continuer !'); return; }
+    document.querySelector(`.quiz-step[data-step="${step}"]`).classList.remove('active');
+    currentStep = step + 1;
+    document.querySelector(`.quiz-step[data-step="${currentStep}"]`).classList.add('active');
+    updateProgress();
+  }
+
+  function prevStep(step) {
+    document.querySelector(`.quiz-step[data-step="${step}"]`).classList.remove('active');
+    currentStep = step - 1;
+    document.querySelector(`.quiz-step[data-step="${currentStep}"]`).classList.add('active');
+    updateProgress();
+  }
+
+  function showResult() {
+    if (!answers[3]) { alert('Sélectionne une réponse avant de continuer !'); return; }
+    const counts = { inphb: 0, ensea: 0, esatic: 0 };
+    Object.values(answers).forEach(v => counts[v]++);
+    const winner = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+    const data = {
+      inphb: {
+        badge: '🔵 INPHB',
+        name: 'Institut National Polytechnique Houphouët-Boigny',
+        desc: 'Ton profil est celui d\'un bâtisseur, d\'un ingénieur ancré dans le monde physique. L\'INPHB à Yamoussoukro est ton environnement idéal : immense campus, laboratoires de haut niveau, spécialités variées du génie civil à l\'agronomie. Tu as le goût de transformer le réel et de construire l\'Afrique de demain, pierre par pierre.',
+        cls: 'inphb', target: 'panel-inphb'
+      },
+      ensea: {
+        badge: '🔴 ENSEA',
+        name: 'École Nationale Supérieure de Statistique et d\'Économie Appliquée',
+        desc: 'Tu as l\'esprit analytique d\'un stratège des données. L\'ENSEA est ta destination : modélisation, économétrie, actuariat et data science t\'attendent. Les portes des institutions internationales (FMI, Banque Mondiale, UEMOA) s\'ouvrent naturellement aux diplômés ENSEA. Ta force, c\'est comprendre et prévoir le monde avec rigueur.',
+        cls: 'ensea', target: 'panel-ensea'
+      },
+      esatic: {
+        badge: '🟢 ESATIC',
+        name: 'École Supérieure Africaine des Technologies de l\'Information et de la Communication',
+        desc: 'Tu es un digital native, un innovateur du numérique. L\'ESATIC est ta maison : cybersécurité, intelligence artificielle, développement logiciel, réseaux 5G. Tu seras au cœur de la transformation digitale de l\'Afrique. Avec les partenariats tech de l\'école, ta carrière peut te mener partout dans le monde.',
+        cls: 'esatic', target: 'panel-esatic'
+      }
+    };
+    const d = data[winner];
+    document.getElementById('resultBadge').textContent = d.badge;
+    document.getElementById('resultBadge').className = `result-badge ${d.cls}`;
+    document.getElementById('resultName').textContent = d.name;
+    document.getElementById('resultDesc').textContent = d.desc;
+    document.getElementById('resultScrollBtn').onclick = () => {
+      document.getElementById('universites').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => {
+        document.querySelectorAll('.uni-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.uni-panel').forEach(p => p.classList.remove('active'));
+        document.querySelector(`.uni-tab[data-uni="${winner}"]`).classList.add('active');
+        document.getElementById(`panel-${winner}`).classList.add('active');
+      }, 600);
+    };
+    document.querySelectorAll('.quiz-step').forEach(s => s.classList.remove('active'));
+    const resultEl = document.getElementById('quizResult');
+    resultEl.classList.add('show');
+    document.querySelector('.quiz-progress').style.display = 'none';
+  }
+
+  function resetQuiz() {
+    Object.keys(answers).forEach(k => delete answers[k]);
+    currentStep = 0;
+    document.getElementById('quizResult').classList.remove('show');
+    document.querySelector('.quiz-progress').style.display = 'flex';
+    document.querySelectorAll('.quiz-step').forEach(s => s.classList.remove('active'));
+    document.querySelector('.quiz-step[data-step="0"]').classList.add('active');
+    document.querySelectorAll('.quiz-option').forEach(b => b.classList.remove('selected'));
+    updateProgress();
+  }
+
+  async function apiFormSubmit(formId, url, messageId, clearOnSuccess = true) {
+    const form = document.getElementById(formId);
+    const messageEl = document.getElementById(messageId);
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const body = Object.fromEntries(new FormData(form).entries());
+      try {
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const result = await response.json();
+        messageEl.textContent = result.message || (response.ok ? 'Succès' : 'Erreur');
+        messageEl.style.color = response.ok ? 'var(--gold)' : '#ff6b6b';
+        if (response.ok && clearOnSuccess) {
+          form.reset();
+          if (url === '/post') loadPosts();
+        }
+      } catch (error) {
+        messageEl.textContent = 'Le serveur est indisponible.';
+        messageEl.style.color = '#ff6b6b';
+      }
+    });
+  }
+
+  async function loadPosts() {
+    const list = document.getElementById('blogList');
+    try {
+      const response = await fetch('/posts');
+      if (!response.ok) throw new Error('Erreur réseau');
+      const data = await response.json();
+      if (!data.posts || data.posts.length === 0) {
+        list.innerHTML = '<div class="blog-card"><p>Aucun article publié pour le moment.</p></div>';
+        return;
+      }
+      list.innerHTML = data.posts.map(post => `
+        <div class="blog-card">
+          <h4>${post.title}</h4>
+          <p>${post.content}</p>
+          <p style="margin-top:12px; color: var(--text-muted); font-size:0.85rem;">Par ${post.author || 'Anonyme'} · ${post.created_at}</p>
+        </div>
+      `).join('');
+    } catch (error) {
+      list.innerHTML = '<div class="blog-card"><p>Impossible de charger les articles.</p></div>';
+    }
+  }
+
+  apiFormSubmit('loginForm', '/login', 'loginMessage', false);
+  apiFormSubmit('registerForm', '/register', 'registerMessage');
+  apiFormSubmit('contactForm', '/contact', 'contactMessageStatus');
+  apiFormSubmit('postForm', '/post', 'postMessage');
+  loadPosts();
+</script>
+</body>
+</html>
